@@ -13,7 +13,7 @@ def calculate(x: float, n: int) -> float:
 
             sub_loop_sum: float = 0
             for j in range(1, n + 1):
-                sub_loop_sum += x - i + j
+                sub_loop_sum += x - i + j + 9999
 
             y += sub_loop_sum
 
